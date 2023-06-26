@@ -1,0 +1,270 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.first-row, header, footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+}
+
+header {
+    padding-left: 215px;
+    padding-right: 95px;
+}
+
+button {
+    color: #FFFFFF;
+    width: 90px;
+    height: 32px;
+    margin: 0;
+}
+
+.first-row {
+    align-items: center;
+    justify-content: space-around;
+    height: 400px;
+    padding-bottom: 75px;
+    gap: 100px;
+}
+
+.second-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-row {
+    display: flex;
+    padding: 50px 125px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth-row {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+
+.header {
+    font-weight: 900px;
+}
+
+button, .call, .pic {
+    background-color: #3882F6;
+    border-radius: 8px;
+    outline: none;
+}
+
+.call {
+    display: flex;
+    width: 725px;
+    height: 95px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.encouragement {
+    color: whitesmoke;
+    margin: 0;
+}
+
+.call-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-text, .link {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.first-text {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.first-left-side {
+    display: flex;
+    width: 50vh;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.first-right-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    height: 252px;
+    
+}
+
+.first, .third, .logo {
+    color: #F9FAF8;
+}
+
+.first {
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.second, .quote {
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.second {
+    height: 40px;
+}
+
+.second-bottom {
+    display: flex;
+    width: 750px;
+    height: 600px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+}
+
+.quote {
+    width: 1000px;
+    font-style: italic;
+}
+
+.third {
+    font-size: 20px;
+    margin: 0;
+}
+
+.third-row {
+    background-color: #E5E7EB;
+    height: 275px;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    width: 200px;
+}
+
+.link {
+    text-align: right;
+    text-decoration: none;
+}
+
+.link-container {
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    width: 450px;
+    white-space: nowrap;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 150px 15px 150px;
+    margin: 0 0 0 0;
+    margin-left: auto;
+}
+
+.side-photo {
+    width: 650px;
+    height: 265px;
+    margin-right: 100px;
+}
+
+.pic {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+}
+
+.pair {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.third-row-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.arnold {
+    display: inline;
+    text-align: right;
+}
+
+.titles {
+    display: inline;
+    margin: 0;
+}
+
+.arnold-link {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5 ease-in;
+}
+
+.arnold-link:hover {
+    text-decoration: none;
+    color: orangered;
+    transition: color 0.5s ease-in;
+}
+
+.first-sign {
+    width: 95px;
+    height: 29px;
+    border: 0 solid #FFFFFF;
+}
+
+.second-sign {
+    padding: 0;
+    border: 1px solid #FFFFFF;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+}

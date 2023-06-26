@@ -5,103 +5,152 @@
         <meta charset="UTF-8">
         <title>REALLY COOL WEBSITE</title>
         <link href="styles.css" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <h3>
-                Header Logo
-            </h3>
-            <a href="https://github.com/">
-                My GitHub
-            </a>
-            <a href="https://gh-users-search.netlify.app/">
-            </a>
-            <a href="https://www.theodinproject.com/paths">
-                The Odin Project
-            </a>
-            <a href="https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png">
-                Website Template
-            </a>
+            <div class="logo header">
+                <h3>
+                    Header Logo
+                </h3>
+            </div>
+            <div class="links">
+                <div class="link-container">
+                    <a class="1 link" href="https://github.com/">
+                        My GitHub
+                    </a>
+                    <a class="2 link" href="https://gh-users-search.netlify.app/">
+                        Github Search
+                    </a>
+                    <a class="3 link" href="https://www.theodinproject.com/paths">
+                        The Odin Project
+                    </a>
+                    <a class="4 link" href="https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png">
+                        Website Template
+                    </a>
+                </div>
+            </div>
         </header>
         <main>
-            <div>
-                <div>
-                    <h1>
+            <div class="first-row">
+                <div class="first-left-side">
+                    <h1 class="first header">
                         This website is awesome!
                     </h1>
-                    <p>This website was designed to serve as Noah's 
+                    <p class="first-text">This website was designed to serve as Noah's 
                         portfolio. He is an amateur programmer and 
                         is still learning the ropes.
                     </p>
-                    <button>
-                        Sign up
+                    <button class="first-sign">
+                        <strong>
+                            Sign up
+                        </strong>
                     </button>
                 </div>
-                <div>
-                    <img src="./images/gray-cloud.jpg">
+                <div class="first-right-side">
+                    <div class="img-container">
+                        <img class="side-photo" src="./images/gray-cloud.jpg" alt="A gray cloud next to the text">
+                    </div>
+                </div>
             </div>
-            </div>
-            <div>
-                <h3>
-                    Some random information.
+            <div class="second-row">
+                <h3 class="second header">
+                    More information.
                 </h3>
-                <div>
-                    <div>
-                        <img>
+                <div class="second-bottom">
+                    <div class="pair">
+                        <img class="pic" src="./images/hello.jpg">
                         <p>
-                            Description
+                            Hello! My name is Noah Oguh, I am very pleased to be working with you.
                         </p>
                     </div>
-                    <div>
-                        <img>
+                    <div class="pair">
+                        <img class="pic" src=./images/large-canyon.jpg>
                         <p>
-                            Description
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                             commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                         </p>
                     </div>
-                    <div>
-                        <img>
+                    <div class="pair">
+                        <img class="pic" src="./images/warm-house.jpg">
                         <p>
-                            Description
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                             commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                         </p>
                     </div>
-                    <div>
-                        <img>
+                    <div class="pair">
+                        <img class="pic" src="./images/majestic-mountain.jpg">
                         <p>
-                            Description
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim 
+                             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+                             commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            <!-- My ambitions to become a proficient front-end and back-end web 
+                            developer reflect a desire to possess a comprehensive skill set 
+                            that enables you to create and maintain dynamic and user-friendly 
+                            websites by seamlessly integrating the visual aspects (front-end) 
+                            with the functional components (back-end) of web development. -->
                         </p>
                     </div>
                 </div>
             </div>
-            <div>
-                <em>
-                    "Strength does not come from winning. Your struggles develop your strengths. 
-                    When you go through hardships and decide not to surrender, that is strength."
-                </em>
-                <strong>
-                    - Arnold Schwarzenegger
-                </strong>
+            <div class="third-row">
+                <div class="third-row-content">
+                    <div class="quote">
+                        <em>
+                            "Strength does not come from winning. Your struggles develop your strengths. 
+                            When you go through hardships and decide not to surrender, that is strength."
+                        </em>
+                    </div>
+                    <div class="arnold">
+                        <strong>
+                            <a class="arnold-link" href="https://en.wikipedia.org/wiki/Arnold_Schwarzenegger">
+                                <span>
+                                    -Arnold Schwarzenegger:
+                                </span>
+                            </a>
+                            <p class="titles">
+                                <span>
+                                    Actor, Politician, and Former Bodybuilder
+                                </span>
+                            </p>
+                        </strong>
+                    </div>
+                </div>
             </div>
-            <div>
-                <div>
-                    <div>
-                        <h5>
+            <div class="fourth-row">
+                <div class="call">
+                    <div class="call-left">
+                        <h5 class="third header">
                             Call to action! It's time!
                         </h5>
-                        <p>
+                        <p class="encouragement">
                             Sign up for our product by clicking that button right over there!
                         </p>
                     </div>
-                    <button>
-                        Sign up
-                    </button>
+                    <div class="call-right">
+                        <button class="second-sign">
+                            Sign up
+                        </button>
+                    </div>
                 </div>
             </div>
         </main>
         <footer>
-            <span>
-                Copyright © RYKREV Productions 2023
-            </span>
+                <span class="footer-text">
+                    Copyright © RYKREV Productions 2023
+                </span>
         </footer>
     </body>
 </html>
